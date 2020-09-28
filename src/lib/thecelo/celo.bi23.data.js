@@ -727,13 +727,6 @@ function get_elected_validators(){
     }
   };
 }
-function get_votes(address){
-  //celocli validator:show 7d838ea0e6bcd12b6dcc13087d0eb242f99ffe1e
-  //affiliation:
-  //celocli election:show 028fad6c3142681c21517cd4414a6be4438f2556 --group
-  //
-
-}
 let
   redis     = require('redis'),
   redis_client    = redis.createClient({

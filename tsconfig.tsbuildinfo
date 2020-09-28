@@ -1,0 +1,3473 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "fb0c09b697dc42afa84d1587e3c994a2f554d2a45635e4f0618768d16a86b69a",
+        "signature": "fb0c09b697dc42afa84d1587e3c994a2f554d2a45635e4f0618768d16a86b69a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "signature": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
+        "signature": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
+        "signature": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
+        "affectsGlobalScope": false
+      },
+      "./dist/src/index.d.ts": {
+        "version": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-bzz/types/index.d.ts": {
+        "version": "864d3573f14f138134b33f9589fb2bfb68a63cb63801a23d17a247f5f3bfa375",
+        "signature": "864d3573f14f138134b33f9589fb2bfb68a63cb63801a23d17a247f5f3bfa375",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts": {
+        "version": "475788d429f140ad8bac55c9ed7c84cd90ae08a15e9bfc22150f953c1e1aba1f",
+        "signature": "475788d429f140ad8bac55c9ed7c84cd90ae08a15e9bfc22150f953c1e1aba1f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts": {
+        "version": "be90b1623c86b4bffcc4e393f4613f05eaefb743ffe5735879e7718bb3b73c99",
+        "signature": "be90b1623c86b4bffcc4e393f4613f05eaefb743ffe5735879e7718bb3b73c99",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/globals.d.ts": {
+        "version": "68aba9c37b535b42ce96b78a4cfa93813bf4525f86dceb88a6d726c5f7c6c14f",
+        "signature": "68aba9c37b535b42ce96b78a4cfa93813bf4525f86dceb88a6d726c5f7c6c14f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/async_hooks.d.ts": {
+        "version": "c438b413e94ff76dfa20ae005f33a1c84f2480d1d66e0fd687501020d0de9b50",
+        "signature": "c438b413e94ff76dfa20ae005f33a1c84f2480d1d66e0fd687501020d0de9b50",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/buffer.d.ts": {
+        "version": "bc6a78961535181265845bf9b9e8a147ffd0ca275097ceb670a9b92afa825152",
+        "signature": "bc6a78961535181265845bf9b9e8a147ffd0ca275097ceb670a9b92afa825152",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/child_process.d.ts": {
+        "version": "1fc4b0908c44f39b1f2e5a728d472670a0ea0970d2c6b5691c88167fe541ff82",
+        "signature": "1fc4b0908c44f39b1f2e5a728d472670a0ea0970d2c6b5691c88167fe541ff82",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/cluster.d.ts": {
+        "version": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803",
+        "signature": "123ec69e4b3a686eb49afd94ebe3292a5c84a867ecbcb6bb84bdd720a12af803",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/console.d.ts": {
+        "version": "51851805d06a6878796c3a00ccf0839fe18111a38d1bae84964c269f16bcc2b7",
+        "signature": "51851805d06a6878796c3a00ccf0839fe18111a38d1bae84964c269f16bcc2b7",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/constants.d.ts": {
+        "version": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720",
+        "signature": "90c85ddbb8de82cd19198bda062065fc51b7407c0f206f2e399e65a52e979720",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/crypto.d.ts": {
+        "version": "dab288a3d92e6a3323566256ba56987b78b100341866fa3cc245c9cd2fd55706",
+        "signature": "dab288a3d92e6a3323566256ba56987b78b100341866fa3cc245c9cd2fd55706",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dgram.d.ts": {
+        "version": "7ecfe97b43aa6c8b8f90caa599d5648bb559962e74e6f038f73a77320569dd78",
+        "signature": "7ecfe97b43aa6c8b8f90caa599d5648bb559962e74e6f038f73a77320569dd78",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dns.d.ts": {
+        "version": "7db7569fbb3e2b01ba8751c761cdd3f0debd104170d5665b7dc20a11630df3a9",
+        "signature": "7db7569fbb3e2b01ba8751c761cdd3f0debd104170d5665b7dc20a11630df3a9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/domain.d.ts": {
+        "version": "cde4d7f6274468180fa39847b183aec22626e8212ff885d535c53f4cd7c225fd",
+        "signature": "cde4d7f6274468180fa39847b183aec22626e8212ff885d535c53f4cd7c225fd",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/events.d.ts": {
+        "version": "072b0ac82ae8fe05b0d4f2eadb7f6edd0ebd84175ecad2f9e09261290a86bcee",
+        "signature": "072b0ac82ae8fe05b0d4f2eadb7f6edd0ebd84175ecad2f9e09261290a86bcee",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/fs.d.ts": {
+        "version": "f6eedd1053167b8a651d8d9c70b1772e1b501264a36dfa881d7d4b30d623a9bc",
+        "signature": "f6eedd1053167b8a651d8d9c70b1772e1b501264a36dfa881d7d4b30d623a9bc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/fs/promises.d.ts": {
+        "version": "fb28748ff8d015f52e99daee4f454e57cec1a22141f1257c317f3630a15edeb7",
+        "signature": "fb28748ff8d015f52e99daee4f454e57cec1a22141f1257c317f3630a15edeb7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http.d.ts": {
+        "version": "bbc5e63e6789b5dca3ed78bbeaaca9f6a67bad86e235726f35fdc7831c0fa553",
+        "signature": "bbc5e63e6789b5dca3ed78bbeaaca9f6a67bad86e235726f35fdc7831c0fa553",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http2.d.ts": {
+        "version": "5d9394b829cfd504b2fe17287aaad8ce1dcfb2a2183c962a90a85b96da2c1c90",
+        "signature": "5d9394b829cfd504b2fe17287aaad8ce1dcfb2a2183c962a90a85b96da2c1c90",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/https.d.ts": {
+        "version": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a",
+        "signature": "c969bf4c7cdfe4d5dd28aa09432f99d09ad1d8d8b839959646579521d0467d1a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/inspector.d.ts": {
+        "version": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
+        "signature": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/module.d.ts": {
+        "version": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
+        "signature": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/net.d.ts": {
+        "version": "46cac76114704902baa535b30fb66a26aeaf9430f3b3ab44746e329f12e85498",
+        "signature": "46cac76114704902baa535b30fb66a26aeaf9430f3b3ab44746e329f12e85498",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/os.d.ts": {
+        "version": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
+        "signature": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/path.d.ts": {
+        "version": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35",
+        "signature": "84044697c8b3e08ef24e4b32cfe6440143d07e469a5e34bda0635276d32d9f35",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "6999f789ed86a40f3bc4d7e644e8d42ffda569465969df8077cd6c4e3505dd76",
+        "signature": "6999f789ed86a40f3bc4d7e644e8d42ffda569465969df8077cd6c4e3505dd76",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/process.d.ts": {
+        "version": "0c9f2b308e5696d0802b613aff47c99f092add29408e654f7ab6026134250c18",
+        "signature": "0c9f2b308e5696d0802b613aff47c99f092add29408e654f7ab6026134250c18",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/querystring.d.ts": {
+        "version": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
+        "signature": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/readline.d.ts": {
+        "version": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9",
+        "signature": "6b2bb67b0942bcfce93e1d6fad5f70afd54940a2b13df7f311201fba54b2cbe9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/repl.d.ts": {
+        "version": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4",
+        "signature": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/stream.d.ts": {
+        "version": "1298327149e93a60c24a3b5db6048f7cc8fd4e3259e91d05fc44306a04b1b873",
+        "signature": "1298327149e93a60c24a3b5db6048f7cc8fd4e3259e91d05fc44306a04b1b873",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/string_decoder.d.ts": {
+        "version": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
+        "signature": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tls.d.ts": {
+        "version": "3181290a158e54a78c1a57c41791ec1cbdc860ae565916daa1bf4e425b7edac7",
+        "signature": "3181290a158e54a78c1a57c41791ec1cbdc860ae565916daa1bf4e425b7edac7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/trace_events.d.ts": {
+        "version": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "signature": "a77fdb357c78b70142b2fdbbfb72958d69e8f765fd2a3c69946c1018e89d4638",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tty.d.ts": {
+        "version": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "signature": "3c2ac350c3baa61fd2b1925844109e098f4376d0768a4643abc82754fd752748",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/url.d.ts": {
+        "version": "826d48e49c905cedb906cbde6ccaf758827ff5867d4daa006b5a79e0fb489357",
+        "signature": "826d48e49c905cedb906cbde6ccaf758827ff5867d4daa006b5a79e0fb489357",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/util.d.ts": {
+        "version": "5ef157fbb39494a581bd24f21b60488fe248d452c479738b5e41b48720ea69b8",
+        "signature": "5ef157fbb39494a581bd24f21b60488fe248d452c479738b5e41b48720ea69b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/v8.d.ts": {
+        "version": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953",
+        "signature": "289be113bad7ee27ee7fa5b1e373c964c9789a5e9ed7db5ddcb631371120b953",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/vm.d.ts": {
+        "version": "a1136cf18dbe1b9b600c65538fd48609a1a4772d115a0c1d775839fe6544487c",
+        "signature": "a1136cf18dbe1b9b600c65538fd48609a1a4772d115a0c1d775839fe6544487c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/worker_threads.d.ts": {
+        "version": "e8482f41c6e001657302dcb3a1ba30359a0983574caee9405ef863cb9eac3b95",
+        "signature": "e8482f41c6e001657302dcb3a1ba30359a0983574caee9405ef863cb9eac3b95",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/zlib.d.ts": {
+        "version": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
+        "signature": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/ts3.4/base.d.ts": {
+        "version": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
+        "signature": "d44028ae0127eb3e9fcfa5f55a8b81d64775ce15aca1020fe25c511bbb055834",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/wasi.d.ts": {
+        "version": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
+        "signature": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "0f04bc8950ad634ac8ac70f704f200ef06f8852af9017f97c446de4def5b3546",
+        "signature": "0f04bc8950ad634ac8ac70f704f200ef06f8852af9017f97c446de4def5b3546",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/assert.d.ts": {
+        "version": "08d15b727da0c4f0870d98159311b5d4de1f0293dbb9f1261b6752962d2aa239",
+        "signature": "08d15b727da0c4f0870d98159311b5d4de1f0293dbb9f1261b6752962d2aa239",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/base.d.ts": {
+        "version": "d20072cb51d8baad944bedd935a25c7f10c29744e9a648d2c72c215337356077",
+        "signature": "d20072cb51d8baad944bedd935a25c7f10c29744e9a648d2c72c215337356077",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/index.d.ts": {
+        "version": "35cbbc58882d2c158032d7f24ba8953d7e1caeb8cb98918d85819496109f55d2",
+        "signature": "35cbbc58882d2c158032d7f24ba8953d7e1caeb8cb98918d85819496109f55d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/bn.js/index.d.ts": {
+        "version": "bc6dd50ac2fc9a7ca6488811b116bd0ddd606338db0bb97852c8fcf757e2d7f5",
+        "signature": "bc6dd50ac2fc9a7ca6488811b116bd0ddd606338db0bb97852c8fcf757e2d7f5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/bignumber.js/bignumber.d.ts": {
+        "version": "3da2d5afe14d3088426231c88a901fc2d82bb2f0f2b7ff1287397ac3413ef4a5",
+        "signature": "3da2d5afe14d3088426231c88a901fc2d82bb2f0f2b7ff1287397ac3413ef4a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts": {
+        "version": "d7df07e21077ab291d9ff742102ab31883f1aa481477cf64b6b0db7306e04064",
+        "signature": "d7df07e21077ab291d9ff742102ab31883f1aa481477cf64b6b0db7306e04064",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-core-subscriptions/types/index.d.ts": {
+        "version": "625c284be65dbfb8751cfac8ecac4862d8676bef65379a1b3c0099ecbfb49ae5",
+        "signature": "625c284be65dbfb8751cfac8ecac4862d8676bef65379a1b3c0099ecbfb49ae5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts": {
+        "version": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "signature": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts": {
+        "version": "30f5cdb7ec6ef9e132e43285e4d3cf9bc83abb561cc1ea332f6de59866659d11",
+        "signature": "30f5cdb7ec6ef9e132e43285e4d3cf9bc83abb561cc1ea332f6de59866659d11",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts": {
+        "version": "c08e1d87de66ace8a65c208ef48ed643c308e5912e31d5aa49de66848306119f",
+        "signature": "c08e1d87de66ace8a65c208ef48ed643c308e5912e31d5aa49de66848306119f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/node_modules/web3-utils/types/index.d.ts": {
+        "version": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "signature": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts": {
+        "version": "995f073493daa4abcdf0bc5e06f2726850bdaf8bd16b84e2b0fc27c8297e9b50",
+        "signature": "995f073493daa4abcdf0bc5e06f2726850bdaf8bd16b84e2b0fc27c8297e9b50",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts": {
+        "version": "73bfe1974b76abfdb20d58087a8193cc44402f79dcc93e43c6b3207d1a07dee7",
+        "signature": "73bfe1974b76abfdb20d58087a8193cc44402f79dcc93e43c6b3207d1a07dee7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-iban/types/index.d.ts": {
+        "version": "1e13aa4f2ff194e7b753650d271c814a93419bf3dd6085ab6dcce0990e43bc68",
+        "signature": "1e13aa4f2ff194e7b753650d271c814a93419bf3dd6085ab6dcce0990e43bc68",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts": {
+        "version": "068b7d8771cc226375d8fc8a79fa03d0b2398f915a463b72faac8216c68d0d31",
+        "signature": "068b7d8771cc226375d8fc8a79fa03d0b2398f915a463b72faac8216c68d0d31",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts": {
+        "version": "2f208677a8d0b0ec9ae1fd09e8276dd455e6eef200c680078e40dc106cb21f0e",
+        "signature": "2f208677a8d0b0ec9ae1fd09e8276dd455e6eef200c680078e40dc106cb21f0e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/node_modules/web3-utils/types/index.d.ts": {
+        "version": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "signature": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts": {
+        "version": "da9b5883dafb96cdfcd8adfafa8a60854dab6a86d3ca7b8a091c172f4a72d78e",
+        "signature": "da9b5883dafb96cdfcd8adfafa8a60854dab6a86d3ca7b8a091c172f4a72d78e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts": {
+        "version": "1a86456517579a769ea206f9039a7d11e80c065bbd02b4ac8aafe2cf6ad008ca",
+        "signature": "1a86456517579a769ea206f9039a7d11e80c065bbd02b4ac8aafe2cf6ad008ca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3/node_modules/web3-utils/types/index.d.ts": {
+        "version": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "signature": "84c91a21dd7c28640c7df16c23e8ea1b30d5a0e8e670c97ff122371de6b84284",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts": {
+        "version": "089e611f488f1de8aeb1c32c396d376b5c6e04f7b41684d334fe30139ae1dc02",
+        "signature": "089e611f488f1de8aeb1c32c396d376b5c6e04f7b41684d334fe30139ae1dc02",
+        "affectsGlobalScope": false
+      },
+      "./dist/src/utils.d.ts": {
+        "version": "b3c213c0d6b782e5c15f6c2d772d76f0b59d551c53306d35367b8e6ef32a53c3",
+        "signature": "b3c213c0d6b782e5c15f6c2d772d76f0b59d551c53306d35367b8e6ef32a53c3",
+        "affectsGlobalScope": false
+      },
+      "./dist/src/routes/rewards.d.ts": {
+        "version": "c332470936f1e52de138286ccc4ba76eee5034b81d18441afdcfc0ec30e20e29",
+        "signature": "c332470936f1e52de138286ccc4ba76eee5034b81d18441afdcfc0ec30e20e29",
+        "affectsGlobalScope": false
+      },
+      "./dist/src/routes/index.d.ts": {
+        "version": "f90cc504d82cea038502a3f2d0857934b613df57ebb869279a71e66faee13c59",
+        "signature": "f90cc504d82cea038502a3f2d0857934b613df57ebb869279a71e66faee13c59",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/qs/index.d.ts": {
+        "version": "c236451df6139a965bb9b8fba15a43a8bebf4400ca589998e2bdc5e1291fa0f9",
+        "signature": "c236451df6139a965bb9b8fba15a43a8bebf4400ca589998e2bdc5e1291fa0f9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "495cc9f802a6bce4aa21dddf13f8e61b4f0b7976621af90e31c58a4dfe4802ef",
+        "signature": "495cc9f802a6bce4aa21dddf13f8e61b4f0b7976621af90e31c58a4dfe4802ef",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/serve-static/index.d.ts": {
+        "version": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "signature": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/connect/index.d.ts": {
+        "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/body-parser/index.d.ts": {
+        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express/index.d.ts": {
+        "version": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
+        "signature": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/base.d.ts": {
+        "version": "16d4d1279fe6f36d7db36abb9715b215328b0f70ee540fe57112679ad3133f49",
+        "signature": "16d4d1279fe6f36d7db36abb9715b215328b0f70ee540fe57112679ad3133f49",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts": {
+        "version": "9dfd4f6f77afe186eb4937ee124b4c4e02e094fabccccb9de9d41629eea9aaf5",
+        "signature": "9dfd4f6f77afe186eb4937ee124b4c4e02e094fabccccb9de9d41629eea9aaf5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/validators.d.ts": {
+        "version": "b7048714cab0be597e39f80170d719a2a8837d6281bfe5a75540724ebb36706b",
+        "signature": "b7048714cab0be597e39f80170d719a2a8837d6281bfe5a75540724ebb36706b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/address-registry.d.ts": {
+        "version": "38086d84404558d25bc0e14a4e54f2a1dc268174715d00b31f9c31509e3fac88",
+        "signature": "38086d84404558d25bc0e14a4e54f2a1dc268174715d00b31f9c31509e3fac88",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/signatureutils.d.ts": {
+        "version": "38ba23b1c68d2250eacf082c89ea44e471ac848e903fb6c7801d75ff3dab154a",
+        "signature": "38ba23b1c68d2250eacf082c89ea44e471ac848e903fb6c7801d75ff3dab154a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts": {
+        "version": "3d15a6e2125c2c909f6dbe362575fe79866e65110378038143fc222353e9075d",
+        "signature": "3d15a6e2125c2c909f6dbe362575fe79866e65110378038143fc222353e9075d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts": {
+        "version": "021fed9b95c90ab39fbd5b59f2c6ebf8bea3916f8747d226d52f91c18e6d1f61",
+        "signature": "021fed9b95c90ab39fbd5b59f2c6ebf8bea3916f8747d226d52f91c18e6d1f61",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts": {
+        "version": "82f9905a5e0d47599e4cc315c21e0aa0faed930626fb9baedaa12080305a3441",
+        "signature": "82f9905a5e0d47599e4cc315c21e0aa0faed930626fb9baedaa12080305a3441",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/attestations.d.ts": {
+        "version": "dce8fa4c2093d4c04f707e3a1e36e7a92a1efa747360ad799fd05ea925d05709",
+        "signature": "dce8fa4c2093d4c04f707e3a1e36e7a92a1efa747360ad799fd05ea925d05709",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts": {
+        "version": "754f3395a90719fde1105e5ec40deb1aa3590449cfdbea32a061beee544161fb",
+        "signature": "754f3395a90719fde1105e5ec40deb1aa3590449cfdbea32a061beee544161fb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts": {
+        "version": "9f4e1d183881a5843cee2c865b0b0fbf24a4bf9a2109a3ea999737cf4cc0fb68",
+        "signature": "9f4e1d183881a5843cee2c865b0b0fbf24a4bf9a2109a3ea999737cf4cc0fb68",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts": {
+        "version": "ffc80501611a4e3ca3767e876c952da07f4f97d79ffac69bcacefcc0257801c8",
+        "signature": "ffc80501611a4e3ca3767e876c952da07f4f97d79ffac69bcacefcc0257801c8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts": {
+        "version": "57ddc71d054a410e84d4184e5642e424f60acec971dc085cd53949d5381ac3c0",
+        "signature": "57ddc71d054a410e84d4184e5642e424f60acec971dc085cd53949d5381ac3c0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts": {
+        "version": "3b94ee67ce376c6ca3b3f0b80a03910bd1ae68dcfed526c2b7682f1b0d9c1f15",
+        "signature": "3b94ee67ce376c6ca3b3f0b80a03910bd1ae68dcfed526c2b7682f1b0d9c1f15",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts": {
+        "version": "43928dced9aed6fe5717c1d6c9335ca0dc22cc415014cb091b97d14ade47d02e",
+        "signature": "43928dced9aed6fe5717c1d6c9335ca0dc22cc415014cb091b97d14ade47d02e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts": {
+        "version": "46265c01f8f8500f0e7b8fa9f099aee185b79838d8050d52582a08bca9cfbe55",
+        "signature": "46265c01f8f8500f0e7b8fa9f099aee185b79838d8050d52582a08bca9cfbe55",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/election.d.ts": {
+        "version": "5844b7afe66939dd5c0ec424396817f109fc0e5145599be9672599da4a8bebe6",
+        "signature": "5844b7afe66939dd5c0ec424396817f109fc0e5145599be9672599da4a8bebe6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts": {
+        "version": "0cfa4ccbb865bf9ba44dfed0de1ad3aae8c3e49916b231e9a13dadf8f562279f",
+        "signature": "0cfa4ccbb865bf9ba44dfed0de1ad3aae8c3e49916b231e9a13dadf8f562279f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts": {
+        "version": "9f65128a7a6991d11e64db03f90c46b2b44cfa9a73925bfa4db3862eee8a95dd",
+        "signature": "9f65128a7a6991d11e64db03f90c46b2b44cfa9a73925bfa4db3862eee8a95dd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts": {
+        "version": "49fe9e9d2d23118f219a0ae1b0b14b3de1ac674a415b00c9b23184ca788e626a",
+        "signature": "49fe9e9d2d23118f219a0ae1b0b14b3de1ac674a415b00c9b23184ca788e626a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts": {
+        "version": "2707500a44f449aa86ed98e005c8bec03950a9a20c5565e783fe56a5d542426f",
+        "signature": "2707500a44f449aa86ed98e005c8bec03950a9a20c5565e783fe56a5d542426f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts": {
+        "version": "0ec38c88c93c3130e4d4aa00b09bb34447985d0c950fe9994451f07161041fcc",
+        "signature": "0ec38c88c93c3130e4d4aa00b09bb34447985d0c950fe9994451f07161041fcc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts": {
+        "version": "ed1546511a6f9e4e9cbac8c73c6646f58720bcb317ade5c1643abce874324515",
+        "signature": "ed1546511a6f9e4e9cbac8c73c6646f58720bcb317ade5c1643abce874324515",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts": {
+        "version": "4a7c41b66ca3a7b528e971ed96df10b0d5b92fc4965dfacec44144acce8731d2",
+        "signature": "4a7c41b66ca3a7b528e971ed96df10b0d5b92fc4965dfacec44144acce8731d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts": {
+        "version": "302c420c0f65219fc85ee43aaad8cbe1ba16e03002a357002697cf0f6cebaf90",
+        "signature": "302c420c0f65219fc85ee43aaad8cbe1ba16e03002a357002697cf0f6cebaf90",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts": {
+        "version": "96a30bed985113addab274718ba083e4929249505f61151b657439e7169a1434",
+        "signature": "96a30bed985113addab274718ba083e4929249505f61151b657439e7169a1434",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts": {
+        "version": "26d1175df78b83b9cc38ab9ecdfd296d38816e86947c7db5a176ddd0f7766c0e",
+        "signature": "26d1175df78b83b9cc38ab9ecdfd296d38816e86947c7db5a176ddd0f7766c0e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts": {
+        "version": "8e98006d00bf6eeaedc24a1fc1f044116736f1f14b41fa0b06e56cc01fe33e98",
+        "signature": "8e98006d00bf6eeaedc24a1fc1f044116736f1f14b41fa0b06e56cc01fe33e98",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/governance.d.ts": {
+        "version": "0297e7230e9750255f9acb328726feff27c2b871279d102ec88d4139d5b7bd1e",
+        "signature": "0297e7230e9750255f9acb328726feff27c2b871279d102ec88d4139d5b7bd1e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts": {
+        "version": "e1639fe933f63730dad853201f89420f79666ca49e40a0b7636e6e0fe55d0cc1",
+        "signature": "e1639fe933f63730dad853201f89420f79666ca49e40a0b7636e6e0fe55d0cc1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/collections.d.ts": {
+        "version": "074fa4aea797db60830d3aafd36a51e62d0e1d516d3fead28a1299b80164451c",
+        "signature": "074fa4aea797db60830d3aafd36a51e62d0e1d516d3fead28a1299b80164451c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts": {
+        "version": "0710c35dfc950f548e382b596c7ec00e6dbd44922c9c6f81605dc0e93349dceb",
+        "signature": "0710c35dfc950f548e382b596c7ec00e6dbd44922c9c6f81605dc0e93349dceb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts": {
+        "version": "c700b69d0915862ab4990254231248918643ebc8c399b24ef051651a48f082ea",
+        "signature": "c700b69d0915862ab4990254231248918643ebc8c399b24ef051651a48f082ea",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts": {
+        "version": "8523d9c9e84a7cce645b9a79a9dd4ad402db896db4d7545f3b64a4a7bfc374cc",
+        "signature": "8523d9c9e84a7cce645b9a79a9dd4ad402db896db4d7545f3b64a4a7bfc374cc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts": {
+        "version": "3d7cd0623c2dc31671b0d02ba1d7872369346b002080ca3f17a012901ddbabc9",
+        "signature": "3d7cd0623c2dc31671b0d02ba1d7872369346b002080ca3f17a012901ddbabc9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts": {
+        "version": "02ed51dacff86aa805f57db6b1d512b2eda7c3da3dd8e95eb69164aa8e12a599",
+        "signature": "02ed51dacff86aa805f57db6b1d512b2eda7c3da3dd8e95eb69164aa8e12a599",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts": {
+        "version": "6d185fa53ed236bd2c326cb50511970acfd9e8cbd1e3e1bd25d75a8f28e17d7f",
+        "signature": "6d185fa53ed236bd2c326cb50511970acfd9e8cbd1e3e1bd25d75a8f28e17d7f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts": {
+        "version": "de8a13044507af767c00e97cc55a55cb83abcff6159edbc93340e2ab93588529",
+        "signature": "de8a13044507af767c00e97cc55a55cb83abcff6159edbc93340e2ab93588529",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts": {
+        "version": "91a3f6e7b4513c30d1a9817aa127dbc70a4b0dfa2a32318afa14e99411ef78e6",
+        "signature": "91a3f6e7b4513c30d1a9817aa127dbc70a4b0dfa2a32318afa14e99411ef78e6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts": {
+        "version": "1d871ffcc14d3fd73c3363e88326db67e5d1caa7297c7542df63e1bb2f27a4d2",
+        "signature": "1d871ffcc14d3fd73c3363e88326db67e5d1caa7297c7542df63e1bb2f27a4d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts": {
+        "version": "f92f0ac5a273e94314c407471aa0ddd70d06cb3e2753f1a897d6585d7700d265",
+        "signature": "f92f0ac5a273e94314c407471aa0ddd70d06cb3e2753f1a897d6585d7700d265",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/contract-cache.d.ts": {
+        "version": "150ff0413bf7fbfd69582d7839e308bd0b144d5b772a398738e95010d21b56a6",
+        "signature": "150ff0413bf7fbfd69582d7839e308bd0b144d5b772a398738e95010d21b56a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts": {
+        "version": "3d18e3a21e3e637108a39d5e8a702e376d1db6222eea38d6219e1b793b035a7e",
+        "signature": "3d18e3a21e3e637108a39d5e8a702e376d1db6222eea38d6219e1b793b035a7e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts": {
+        "version": "1bf743eaeff1cfd076039566f6501b8b454892404b15863330727e5172895449",
+        "signature": "1bf743eaeff1cfd076039566f6501b8b454892404b15863330727e5172895449",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/address.d.ts": {
+        "version": "502a685a997254a1a2c1b2b81f8e9c154600a3645d5cc58d74bb04db7f29abf3",
+        "signature": "502a685a997254a1a2c1b2b81f8e9c154600a3645d5cc58d74bb04db7f29abf3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts": {
+        "version": "3c6bcece0e0afa1dd5e5913208a2872982342ca6860325526e0abbf7c05c5dd0",
+        "signature": "3c6bcece0e0afa1dd5e5913208a2872982342ca6860325526e0abbf7c05c5dd0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts": {
+        "version": "a2c50ef72b74fd8df844e224fcd35cd7f2295ec23d58eecc7cc8c5703f1d91d5",
+        "signature": "a2c50ef72b74fd8df844e224fcd35cd7f2295ec23d58eecc7cc8c5703f1d91d5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts": {
+        "version": "e72c1f9fd1fd567f193948cd2f4bad917b476dde5f21befe2a86347e8a8d5371",
+        "signature": "e72c1f9fd1fd567f193948cd2f4bad917b476dde5f21befe2a86347e8a8d5371",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts": {
+        "version": "61877c64ca27a48d40c770abb4c3ce9329ff99ed0be3991b6e14e33e05950019",
+        "signature": "61877c64ca27a48d40c770abb4c3ce9329ff99ed0be3991b6e14e33e05950019",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts": {
+        "version": "381ec6c575d4807a401c9a5b1b252ac67c2e4fe651b653c8f1be65955fd3c2ba",
+        "signature": "381ec6c575d4807a401c9a5b1b252ac67c2e4fe651b653c8f1be65955fd3c2ba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/random.d.ts": {
+        "version": "48d6f3d52bb68cbbf7920abef93bf3e46d7116eb1bd1bf10d7e7ae1662cd90f1",
+        "signature": "48d6f3d52bb68cbbf7920abef93bf3e46d7116eb1bd1bf10d7e7ae1662cd90f1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/registry.d.ts": {
+        "version": "de279c1a51c96e0bf3a76f5ee42f3e7a974638a677773d43364a4d4814421c07",
+        "signature": "de279c1a51c96e0bf3a76f5ee42f3e7a974638a677773d43364a4d4814421c07",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts": {
+        "version": "61c9ec0e995f2cbc49d13503ebc4a53daa44d9e9d8430a761ad2659b0fff7497",
+        "signature": "61c9ec0e995f2cbc49d13503ebc4a53daa44d9e9d8430a761ad2659b0fff7497",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts": {
+        "version": "0c6fdb20a3d620707b11bdbeb3739a107f22a377f09dd4f34add30534ec6854d",
+        "signature": "0c6fdb20a3d620707b11bdbeb3739a107f22a377f09dd4f34add30534ec6854d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/kit.d.ts": {
+        "version": "4c0f8a1763bd06e1a181524857a0982db7752226a2daf67c066dc5b1222fa570",
+        "signature": "4c0f8a1763bd06e1a181524857a0982db7752226a2daf67c066dc5b1222fa570",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts": {
+        "version": "4cfdd14f182c19d5d77669836aa6394eace0dd46f949e974a72c291eebae24e0",
+        "signature": "4cfdd14f182c19d5d77669836aa6394eace0dd46f949e974a72c291eebae24e0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts": {
+        "version": "b531213a952a3aea425e1c7193973c45a773fcf6a94b8fbf751492769e71d12e",
+        "signature": "b531213a952a3aea425e1c7193973c45a773fcf6a94b8fbf751492769e71d12e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/hkt.d.ts": {
+        "version": "291b694e718ff5da6f0808ef7f4d8385cec242f82d6fc715ccf64add336a6503",
+        "signature": "291b694e718ff5da6f0808ef7f4d8385cec242f82d6fc715ccf64add336a6503",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/functor.d.ts": {
+        "version": "86487c6090ed5e257dbba5a5c46ed0740e889bb629c88261434ba96c355a3a71",
+        "signature": "86487c6090ed5e257dbba5a5c46ed0740e889bb629c88261434ba96c355a3a71",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/alt.d.ts": {
+        "version": "27058b75e9e55e1737109b972dd6d1497fccbb1b7c7d8c72af281c1a16ba97ab",
+        "signature": "27058b75e9e55e1737109b972dd6d1497fccbb1b7c7d8c72af281c1a16ba97ab",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": {
+        "version": "40da4f3fb8c09de783e084ee3503af5e33580bee242a2037ce77efbf41f37e86",
+        "signature": "40da4f3fb8c09de783e084ee3503af5e33580bee242a2037ce77efbf41f37e86",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/apply.d.ts": {
+        "version": "0bcdac1ea210294f6d1e17d530b5e2dd871256bf6d6dff55021433a17bb60ccb",
+        "signature": "0bcdac1ea210294f6d1e17d530b5e2dd871256bf6d6dff55021433a17bb60ccb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/chain.d.ts": {
+        "version": "c290052b50b6927f91930bdfb4f145d972a3441f68eb1d0caae7c34a6e111cdf",
+        "signature": "c290052b50b6927f91930bdfb4f145d972a3441f68eb1d0caae7c34a6e111cdf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/chainrec.d.ts": {
+        "version": "ab4df08491fc8518a8aedfad89f72134af22fb61c74d681aede004d650314cc7",
+        "signature": "ab4df08491fc8518a8aedfad89f72134af22fb61c74d681aede004d650314cc7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/contravariant.d.ts": {
+        "version": "17afa128914ce3f7f61894b64cd965acbe828f72522adc4ae2d0416fea184e5d",
+        "signature": "17afa128914ce3f7f61894b64cd965acbe828f72522adc4ae2d0416fea184e5d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/eq.d.ts": {
+        "version": "9c5b80b4f22cf9c92d2347f2237e4358393d299c2817a6dca2f5e26e271498e3",
+        "signature": "9c5b80b4f22cf9c92d2347f2237e4358393d299c2817a6dca2f5e26e271498e3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/extend.d.ts": {
+        "version": "6f5bbf3036af9c7f3006e9542b4734310c3cd141996f78948b1547990b8d7c0e",
+        "signature": "6f5bbf3036af9c7f3006e9542b4734310c3cd141996f78948b1547990b8d7c0e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/applicative.d.ts": {
+        "version": "d8ee487a637cb31ca057279bea11d96de7eadd53b74cd6f036762a2b7f6453b6",
+        "signature": "d8ee487a637cb31ca057279bea11d96de7eadd53b74cd6f036762a2b7f6453b6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/monad.d.ts": {
+        "version": "d399c4208d319d7a8d49ec633f24da08a29e450326c8ac1be9b7434b077d6aaf",
+        "signature": "d399c4208d319d7a8d49ec633f24da08a29e450326c8ac1be9b7434b077d6aaf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/magma.d.ts": {
+        "version": "f5b64906ef2d8e60fdfb2355c88bc9b3f7d015b29251166c3d56b30606c2222d",
+        "signature": "f5b64906ef2d8e60fdfb2355c88bc9b3f7d015b29251166c3d56b30606c2222d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/semigroup.d.ts": {
+        "version": "cd3155555dfffa4f451ee997e55df1b159aa6283ce32cfafecb8e75846e3cf79",
+        "signature": "cd3155555dfffa4f451ee997e55df1b159aa6283ce32cfafecb8e75846e3cf79",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/ordering.d.ts": {
+        "version": "815786713a910ef352ea4cfa94d35ea89410425f79ed0bf5027138a8cca75c17",
+        "signature": "815786713a910ef352ea4cfa94d35ea89410425f79ed0bf5027138a8cca75c17",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/ord.d.ts": {
+        "version": "8b0cb19d09fa3f59e89e296aee12ea3612a9a201fb9a59590b0bf9d3525bd54c",
+        "signature": "8b0cb19d09fa3f59e89e296aee12ea3612a9a201fb9a59590b0bf9d3525bd54c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/bounded.d.ts": {
+        "version": "e6dc2341cad4f8e2a558b2b03dc634014fac128cdaf714676aae8ef542ef10b5",
+        "signature": "e6dc2341cad4f8e2a558b2b03dc634014fac128cdaf714676aae8ef542ef10b5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/function.d.ts": {
+        "version": "f8ca3202c13ba296f543409f84be3ffb68190ffe5094643daa668f9d60cd4b03",
+        "signature": "f8ca3202c13ba296f543409f84be3ffb68190ffe5094643daa668f9d60cd4b03",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/monoid.d.ts": {
+        "version": "d5f633a4a2acc2bf53b6294dae33bfb2986408dede4cec5524a769b5141fd113",
+        "signature": "d5f633a4a2acc2bf53b6294dae33bfb2986408dede4cec5524a769b5141fd113",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/foldable.d.ts": {
+        "version": "a8b812c7f97c944fb8c157e60506c83b8905217455ed40c761f5fc896458819f",
+        "signature": "a8b812c7f97c944fb8c157e60506c83b8905217455ed40c761f5fc896458819f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": {
+        "version": "d5969aa49d0f0ae04c7a728f0bff08476722bcebb60febb999524ee239cc735f",
+        "signature": "d5969aa49d0f0ae04c7a728f0bff08476722bcebb60febb999524ee239cc735f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/alternative.d.ts": {
+        "version": "f1b1c8f1df666c36b1bc3a077754c74a1335adbd8cf56d8597fda89d2e9c83bb",
+        "signature": "f1b1c8f1df666c36b1bc3a077754c74a1335adbd8cf56d8597fda89d2e9c83bb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/compactable.d.ts": {
+        "version": "2b8f61430e267313d4aa8371504ee6d39cd76236e1ddc8d07edb4517a094d9ef",
+        "signature": "2b8f61430e267313d4aa8371504ee6d39cd76236e1ddc8d07edb4517a094d9ef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/filterable.d.ts": {
+        "version": "79ab1c62c290fd15a7f52a8b9d0e5ef0e37091b71d496b03847853096c8c66b8",
+        "signature": "79ab1c62c290fd15a7f52a8b9d0e5ef0e37091b71d496b03847853096c8c66b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/show.d.ts": {
+        "version": "50ba00ae385810d332ee3f09b19cb6143675ba80abbccd5059089250fc69141d",
+        "signature": "50ba00ae385810d332ee3f09b19cb6143675ba80abbccd5059089250fc69141d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/traversable.d.ts": {
+        "version": "211a11e0e982835b96f022d3b835feba486911a40e2c6c0bdc9f7df60ad6132f",
+        "signature": "211a11e0e982835b96f022d3b835feba486911a40e2c6c0bdc9f7df60ad6132f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/witherable.d.ts": {
+        "version": "d9414b38323abc8586cd1be6e7addb9f1e34769475bb478a85e36ebf4ad72b5b",
+        "signature": "d9414b38323abc8586cd1be6e7addb9f1e34769475bb478a85e36ebf4ad72b5b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/option.d.ts": {
+        "version": "a8a8493a6ee2ef079b3dc6d43ef7cb5c38a66501c95395f83a58ba6654ae0fef",
+        "signature": "a8a8493a6ee2ef079b3dc6d43ef7cb5c38a66501c95395f83a58ba6654ae0fef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/fp-ts/lib/either.d.ts": {
+        "version": "68ac29b87e2c2fae20b0dc5b20133733e42a4f698d139bcc45b13252c93e6dcb",
+        "signature": "68ac29b87e2c2fae20b0dc5b20133733e42a4f698d139bcc45b13252c93e6dcb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/io-ts/lib/index.d.ts": {
+        "version": "d51e361e332391cc29b8a4559aa4d9c0782d2fe1ea83a555e20b66b905443d25",
+        "signature": "d51e361e332391cc29b8a4559aa4d9c0782d2fe1ea83a555e20b66b905443d25",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts": {
+        "version": "6da0e9127222b4b4b0f6ba3d558a2fea058595fa661a762cba003d982df6e26a",
+        "signature": "6da0e9127222b4b4b0f6ba3d558a2fea058595fa661a762cba003d982df6e26a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts": {
+        "version": "c85a9fe78ec5ec2e3d9cdadae47ea0f8c26d670e8127837055f3b274201de938",
+        "signature": "c85a9fe78ec5ec2e3d9cdadae47ea0f8c26d670e8127837055f3b274201de938",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts": {
+        "version": "4af8f052046d85e5054fc3ae98f926b0bbef6ff7f671ec990eb4e782850fca2f",
+        "signature": "4af8f052046d85e5054fc3ae98f926b0bbef6ff7f671ec990eb4e782850fca2f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts": {
+        "version": "0d281b4858132736dd4edb2022c4439a5ed3936df41516134b72e4f1bf949e29",
+        "signature": "0d281b4858132736dd4edb2022c4439a5ed3936df41516134b72e4f1bf949e29",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts": {
+        "version": "78598ac21ccd4b8d83b4d5d2705f6320de9d11f66c30832a464d35d6e327a2ce",
+        "signature": "78598ac21ccd4b8d83b4d5d2705f6320de9d11f66c30832a464d35d6e327a2ce",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/index.d.ts": {
+        "version": "d2bd1a23fe675ec5bb0ba556bca234c4731b193289b7b1f974091f748ac9e27b",
+        "signature": "d2bd1a23fe675ec5bb0ba556bca234c4731b193289b7b1f974091f748ac9e27b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts": {
+        "version": "bd4d3e68a76a45fb91fa0d3e3d8b7b2b5ca32156b9e8cf575f01c12067bcad30",
+        "signature": "bd4d3e68a76a45fb91fa0d3e3d8b7b2b5ca32156b9e8cf575f01c12067bcad30",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/io.d.ts": {
+        "version": "e396b740d06c907249eb33925575723844f88889cb70d57e7302fe7d7fdb51a3",
+        "signature": "e396b740d06c907249eb33925575723844f88889cb70d57e7302fe7d7fdb51a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/utils/lib/io.d.ts": {
+        "version": "5b2f2d7e431142d99494b0ce8af19e237a4861031b5c786135caedfbda608617",
+        "signature": "5b2f2d7e431142d99494b0ce8af19e237a4861031b5c786135caedfbda608617",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts": {
+        "version": "338c338df5f24401c5547000b0efe06ba83c8a15271a53c409445aa84097607a",
+        "signature": "338c338df5f24401c5547000b0efe06ba83c8a15271a53c409445aa84097607a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts": {
+        "version": "336295a3508425e240effc66e0844c4652607a24a849741bb39bd7c33ac025ef",
+        "signature": "336295a3508425e240effc66e0844c4652607a24a849741bb39bd7c33ac025ef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts": {
+        "version": "799478128fc8149e5a4a0b96e0108fdb4a26c89ede70f48dc52417a14bc3eeba",
+        "signature": "799478128fc8149e5a4a0b96e0108fdb4a26c89ede70f48dc52417a14bc3eeba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts": {
+        "version": "f9cddde1f643a7a4e6b3499e08066675f0e0e8348fc4da1a62e908901dfe2299",
+        "signature": "f9cddde1f643a7a4e6b3499e08066675f0e0e8348fc4da1a62e908901dfe2299",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/network-utils/genesis-block-utils.d.ts": {
+        "version": "d83d19f13dd1223b1e6b7b33af1f9c0cf6268bd39270c18257ff0fa8876601d9",
+        "signature": "d83d19f13dd1223b1e6b7b33af1f9c0cf6268bd39270c18257ff0fa8876601d9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/network-utils/static-node-utils.d.ts": {
+        "version": "d9745606cdf27c498bed878dcb5c83ab4265edadd83ebc499542cec17fcee975",
+        "signature": "d9745606cdf27c498bed878dcb5c83ab4265edadd83ebc499542cec17fcee975",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/base/lib/lock.d.ts": {
+        "version": "d48447a8fe89e0ac10fc398da6652c906ce30fa4495dfcb83705e18b71b9af0b",
+        "signature": "d48447a8fe89e0ac10fc398da6652c906ce30fa4495dfcb83705e18b71b9af0b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts": {
+        "version": "8e86b852ed311c85b765b93bff98fa40c4ea271817c01d51516d6a86aeb0225b",
+        "signature": "8e86b852ed311c85b765b93bff98fa40c4ea271817c01d51516d6a86aeb0225b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@celo/contractkit/lib/index.d.ts": {
+        "version": "0d3e7a18f698b9f153bc1bec3d0cb06a296b8e4092a491ce265aa418d93ff031",
+        "signature": "0d3e7a18f698b9f153bc1bec3d0cb06a296b8e4092a491ce265aa418d93ff031",
+        "affectsGlobalScope": false
+      },
+      "./src/utils.ts": {
+        "version": "3c6ae790a88a5317ce3154d6a588ea0fa73f85af676cf360ec41af1e55bc21b2",
+        "signature": "91c13e36d024e6b92a68690b49a2f780ee082c4ee2d4788bcc3257862faf7606",
+        "affectsGlobalScope": false
+      },
+      "./src/routes/rewards.ts": {
+        "version": "a38ff48483d4f23c2f6430d1e2685fe97348a61e889a02f0c174ab835d04a516",
+        "signature": "c332470936f1e52de138286ccc4ba76eee5034b81d18441afdcfc0ec30e20e29",
+        "affectsGlobalScope": false
+      },
+      "./src/routes/index.ts": {
+        "version": "8f65f9e01fcbc4d56cde5a4ccc9d855b6aabab89781b14bf216320d6ebed8383",
+        "signature": "f90cc504d82cea038502a3f2d0857934b613df57ebb869279a71e66faee13c59",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "73b026ecad368dcf742218da2ec14d0294d3514ec05e78a4b6a92d58370d710d",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./src/lib/thecelo/thecelo.d.ts": {
+        "version": "ab34756abfa00d28c85a9442b10e56444d15e4944f9a14f989e76b95836f63e5",
+        "signature": "ab34756abfa00d28c85a9442b10e56444d15e4944f9a14f989e76b95836f63e5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/pvutils/index.d.ts": {
+        "version": "b21dd0d88add17c79cac2e4ecacbdfa511ea42ffa1e629c3a88eab1702a45e9f",
+        "signature": "b21dd0d88add17c79cac2e4ecacbdfa511ea42ffa1e629c3a88eab1702a45e9f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/asn1js/index.d.ts": {
+        "version": "319277bec3431be1eeb4ce287507e10383e399f29e4b2f892c2f96b38a221ac9",
+        "signature": "319277bec3431be1eeb4ce287507e10383e399f29e4b2f892c2f96b38a221ac9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/color-name/index.d.ts": {
+        "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": {
+        "version": "cbb7029e32a6a72178cda8baa9129b1ee6d1d779a35e46c780e38b4909d42a89",
+        "signature": "cbb7029e32a6a72178cda8baa9129b1ee6d1d779a35e46c780e38b4909d42a89",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node-fetch/externals.d.ts": {
+        "version": "972f1e91dab93b182624a17eeed02f683b8cb3fefbda7b689cc84570029d5f73",
+        "signature": "972f1e91dab93b182624a17eeed02f683b8cb3fefbda7b689cc84570029d5f73",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node-fetch/index.d.ts": {
+        "version": "f51382950fa81e3a54e9fd9f343fe583cfbb221f15a51936e12411699347effe",
+        "signature": "f51382950fa81e3a54e9fd9f343fe583cfbb221f15a51936e12411699347effe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/pbkdf2/index.d.ts": {
+        "version": "a73a445c1e0a6d0f8b48e8eb22dc9d647896783a7f8991cbbc31c0d94bf1f5a2",
+        "signature": "a73a445c1e0a6d0f8b48e8eb22dc9d647896783a7f8991cbbc31c0d94bf1f5a2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/secp256k1/index.d.ts": {
+        "version": "26edf4435648f73b2b5ccc07f3159fea08b46b20e5230f95e57f6b62e388d2b2",
+        "signature": "26edf4435648f73b2b5ccc07f3159fea08b46b20e5230f95e57f6b62e388d2b2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/tunnel/index.d.ts": {
+        "version": "166bfd32f444e0505b9dfcccce99a2c99f04fba1f1e232e93a8ff72660973a87",
+        "signature": "166bfd32f444e0505b9dfcccce99a2c99f04fba1f1e232e93a8ff72660973a87",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "module": 1,
+      "target": 4,
+      "sourceMap": true,
+      "baseUrl": "./",
+      "composite": true,
+      "paths": {
+        "thecelo/*": [
+          "src/*"
+        ]
+      },
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./dist/src/routes/index.d.ts": [
+        "./dist/src/routes/rewards.d.ts"
+      ],
+      "./dist/src/utils.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ],
+      "./node_modules/@celo/base/lib/address.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/address-registry.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/contract-cache.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/election.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/governance.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/random.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/registry.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/validators.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts": [
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts": [
+        "./node_modules/@celo/base/lib/signatureutils.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts",
+        "./node_modules/@celo/utils/lib/io.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts": [
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/index.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/network-utils/genesis-block-utils.d.ts",
+        "./node_modules/@celo/contractkit/lib/network-utils/static-node-utils.d.ts",
+        "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/kit.d.ts": [
+        "./node_modules/@celo/contractkit/lib/address-registry.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/contract-cache.d.ts",
+        "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts",
+        "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts": [
+        "./node_modules/@celo/base/lib/lock.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts": [
+        "./node_modules/@celo/base/lib/address.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts": [
+        "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/random.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/registry.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/validators.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts": [
+        "./node_modules/@celo/base/lib/signatureutils.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts": [
+        "./node_modules/@celo/base/lib/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts": [
+        "./node_modules/@celo/base/lib/collections.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/validators.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts": [
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-subscriptions/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-iban/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-bzz/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/utils/lib/io.d.ts": [
+        "./node_modules/@celo/base/lib/io.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/asn1js/index.d.ts": [
+        "./node_modules/@types/pvutils/index.d.ts"
+      ],
+      "./node_modules/@types/bn.js/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/index.d.ts": [
+        "./node_modules/@types/node-fetch/externals.d.ts",
+        "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.4/base.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.6/base.d.ts": [
+        "./node_modules/@types/node/globals.global.d.ts",
+        "./node_modules/@types/node/ts3.4/base.d.ts",
+        "./node_modules/@types/node/wasi.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/pbkdf2/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/secp256k1/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/tunnel/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alt.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alternative.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/applicative.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/apply.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bounded.d.ts": [
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chain.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chainrec.d.ts": [
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/compactable.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/contravariant.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/either.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chainrec.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/eq.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/extend.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterable.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monad.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monoid.d.ts": [
+        "./node_modules/fp-ts/lib/bounded.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/option.d.ts": [
+        "./node_modules/fp-ts/lib/alternative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ord.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ordering.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ordering.d.ts": [
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroup.d.ts": [
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/witherable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts"
+      ],
+      "./node_modules/io-ts/lib/index.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts"
+      ],
+      "./src/index.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./src/routes/index.ts",
+        "./src/utils.ts"
+      ],
+      "./src/routes/index.ts": [
+        "./src/routes/rewards.ts"
+      ],
+      "./src/routes/rewards.ts": [
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./src/utils.ts"
+      ],
+      "./src/utils.ts": [
+        "./node_modules/@celo/contractkit/lib/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./dist/src/routes/index.d.ts": [
+        "./dist/src/routes/rewards.d.ts"
+      ],
+      "./dist/src/utils.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ],
+      "./node_modules/@celo/base/lib/address.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/address-registry.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/contract-cache.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/election.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/governance.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/random.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/registry.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/generated/validators.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts": [
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts": [
+        "./node_modules/@celo/base/lib/signatureutils.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts",
+        "./node_modules/@celo/utils/lib/io.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts": [
+        "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts": [
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/index.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/index.d.ts",
+        "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/network-utils/genesis-block-utils.d.ts",
+        "./node_modules/@celo/contractkit/lib/network-utils/static-node-utils.d.ts",
+        "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/kit.d.ts": [
+        "./node_modules/@celo/contractkit/lib/address-registry.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/contract-cache.d.ts",
+        "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts",
+        "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts": [
+        "./node_modules/@celo/base/lib/lock.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts": [
+        "./node_modules/@celo/base/lib/address.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts": [
+        "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/random.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/registry.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/validators.d.ts",
+        "./node_modules/@celo/contractkit/lib/kit.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts": [
+        "./node_modules/@celo/base/lib/signatureutils.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts": [
+        "./node_modules/@celo/base/lib/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/kit.d.ts",
+        "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/election.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/governance.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts": [
+        "./node_modules/@celo/base/lib/collections.d.ts",
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts": [
+        "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts": [
+        "./node_modules/@celo/contractkit/lib/base.d.ts",
+        "./node_modules/@celo/contractkit/lib/generated/validators.d.ts",
+        "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts": [
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core-subscriptions/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-iban/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@types/bn.js/index.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3/node_modules/web3-utils/types/index.d.ts": [
+        "./node_modules/@types/bn.js/index.d.ts"
+      ],
+      "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts": [
+        "./node_modules/@celo/contractkit/node_modules/web3-bzz/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@celo/utils/lib/io.d.ts": [
+        "./node_modules/@celo/base/lib/io.d.ts",
+        "./node_modules/io-ts/lib/index.d.ts"
+      ],
+      "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/asn1js/index.d.ts": [
+        "./node_modules/@types/pvutils/index.d.ts"
+      ],
+      "./node_modules/@types/bn.js/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/index.d.ts": [
+        "./node_modules/@types/node-fetch/externals.d.ts",
+        "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.4/base.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.6/base.d.ts": [
+        "./node_modules/@types/node/globals.global.d.ts",
+        "./node_modules/@types/node/ts3.4/base.d.ts",
+        "./node_modules/@types/node/wasi.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/pbkdf2/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/secp256k1/index.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/tunnel/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alt.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alternative.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/applicative.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/apply.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bounded.d.ts": [
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chain.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chainrec.d.ts": [
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/compactable.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/contravariant.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/either.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chainrec.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/eq.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/extend.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterable.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monad.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monoid.d.ts": [
+        "./node_modules/fp-ts/lib/bounded.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/option.d.ts": [
+        "./node_modules/fp-ts/lib/alternative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ord.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/ordering.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ordering.d.ts": [
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroup.d.ts": [
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/witherable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts"
+      ],
+      "./node_modules/io-ts/lib/index.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts"
+      ],
+      "./src/routes/index.ts": [
+        "./src/routes/rewards.ts"
+      ],
+      "./src/utils.ts": [
+        "./node_modules/@celo/contractkit/lib/index.d.ts",
+        "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./dist/src/index.d.ts",
+      "./dist/src/routes/index.d.ts",
+      "./dist/src/routes/rewards.d.ts",
+      "./dist/src/utils.d.ts",
+      "./node_modules/@celo/base/lib/address.d.ts",
+      "./node_modules/@celo/base/lib/attestations.d.ts",
+      "./node_modules/@celo/base/lib/collections.d.ts",
+      "./node_modules/@celo/base/lib/io.d.ts",
+      "./node_modules/@celo/base/lib/lock.d.ts",
+      "./node_modules/@celo/base/lib/signatureutils.d.ts",
+      "./node_modules/@celo/contractkit/lib/address-registry.d.ts",
+      "./node_modules/@celo/contractkit/lib/base.d.ts",
+      "./node_modules/@celo/contractkit/lib/contract-cache.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/accounts.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/attestations.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/blockchainparameters.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/doublesigningslasher.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/downtimeslasher.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/election.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/epochrewards.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/escrow.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/exchange.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/feecurrencywhitelist.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/freezer.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/gaspriceminimum.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/goldtoken.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/governance.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/lockedgold.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/multisig.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/random.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/registry.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/reserve.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/sortedoracles.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/stabletoken.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/transferwhitelist.d.ts",
+      "./node_modules/@celo/contractkit/lib/generated/validators.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/claims/account.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/claims/attestation-service-url.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/claims/claim.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/claims/types.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/index.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/metadata.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/odis/bls-blinding-client.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/odis/index.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/odis/matchmaking.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/odis/phone-number-identifier.d.ts",
+      "./node_modules/@celo/contractkit/lib/identity/odis/query.d.ts",
+      "./node_modules/@celo/contractkit/lib/index.d.ts",
+      "./node_modules/@celo/contractkit/lib/kit.d.ts",
+      "./node_modules/@celo/contractkit/lib/network-utils/genesis-block-utils.d.ts",
+      "./node_modules/@celo/contractkit/lib/network-utils/static-node-utils.d.ts",
+      "./node_modules/@celo/contractkit/lib/providers/celo-provider.d.ts",
+      "./node_modules/@celo/contractkit/lib/utils/signing-utils.d.ts",
+      "./node_modules/@celo/contractkit/lib/utils/tx-result.d.ts",
+      "./node_modules/@celo/contractkit/lib/wallets/signers/signer.d.ts",
+      "./node_modules/@celo/contractkit/lib/wallets/wallet.d.ts",
+      "./node_modules/@celo/contractkit/lib/web3-contract-cache.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/accounts.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/attestations.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/basewrapper.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/blockchainparameters.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/doublesigningslasher.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/downtimeslasher.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/election.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/escrow.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/exchange.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/freezer.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/gaspriceminimum.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/goldtokenwrapper.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/governance.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/lockedgold.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/multisig.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/reserve.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/sortedoracles.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/stabletokenwrapper.d.ts",
+      "./node_modules/@celo/contractkit/lib/wrappers/validators.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-bzz/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-core-helpers/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-core-method/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-core-subscriptions/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-core/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/node_modules/web3-utils/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-abi/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-accounts/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/node_modules/web3-utils/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-contract/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-ens/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-iban/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth-personal/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/node_modules/web3-utils/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-eth/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-net/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-shh/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3-utils/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3/node_modules/web3-utils/types/index.d.ts",
+      "./node_modules/@celo/contractkit/node_modules/web3/types/index.d.ts",
+      "./node_modules/@celo/utils/lib/io.d.ts",
+      "./node_modules/@celo/utils/lib/sign-typed-data-utils.d.ts",
+      "./node_modules/@types/asn1js/index.d.ts",
+      "./node_modules/@types/bn.js/index.d.ts",
+      "./node_modules/@types/body-parser/index.d.ts",
+      "./node_modules/@types/color-name/index.d.ts",
+      "./node_modules/@types/connect/index.d.ts",
+      "./node_modules/@types/express-serve-static-core/index.d.ts",
+      "./node_modules/@types/express/index.d.ts",
+      "./node_modules/@types/mime/index.d.ts",
+      "./node_modules/@types/node-fetch/externals.d.ts",
+      "./node_modules/@types/node-fetch/index.d.ts",
+      "./node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+      "./node_modules/@types/node/assert.d.ts",
+      "./node_modules/@types/node/async_hooks.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/buffer.d.ts",
+      "./node_modules/@types/node/child_process.d.ts",
+      "./node_modules/@types/node/cluster.d.ts",
+      "./node_modules/@types/node/console.d.ts",
+      "./node_modules/@types/node/constants.d.ts",
+      "./node_modules/@types/node/crypto.d.ts",
+      "./node_modules/@types/node/dgram.d.ts",
+      "./node_modules/@types/node/dns.d.ts",
+      "./node_modules/@types/node/domain.d.ts",
+      "./node_modules/@types/node/events.d.ts",
+      "./node_modules/@types/node/fs.d.ts",
+      "./node_modules/@types/node/fs/promises.d.ts",
+      "./node_modules/@types/node/globals.d.ts",
+      "./node_modules/@types/node/globals.global.d.ts",
+      "./node_modules/@types/node/http.d.ts",
+      "./node_modules/@types/node/http2.d.ts",
+      "./node_modules/@types/node/https.d.ts",
+      "./node_modules/@types/node/index.d.ts",
+      "./node_modules/@types/node/inspector.d.ts",
+      "./node_modules/@types/node/module.d.ts",
+      "./node_modules/@types/node/net.d.ts",
+      "./node_modules/@types/node/os.d.ts",
+      "./node_modules/@types/node/path.d.ts",
+      "./node_modules/@types/node/perf_hooks.d.ts",
+      "./node_modules/@types/node/process.d.ts",
+      "./node_modules/@types/node/punycode.d.ts",
+      "./node_modules/@types/node/querystring.d.ts",
+      "./node_modules/@types/node/readline.d.ts",
+      "./node_modules/@types/node/repl.d.ts",
+      "./node_modules/@types/node/stream.d.ts",
+      "./node_modules/@types/node/string_decoder.d.ts",
+      "./node_modules/@types/node/timers.d.ts",
+      "./node_modules/@types/node/tls.d.ts",
+      "./node_modules/@types/node/trace_events.d.ts",
+      "./node_modules/@types/node/ts3.4/base.d.ts",
+      "./node_modules/@types/node/ts3.6/base.d.ts",
+      "./node_modules/@types/node/tty.d.ts",
+      "./node_modules/@types/node/url.d.ts",
+      "./node_modules/@types/node/util.d.ts",
+      "./node_modules/@types/node/v8.d.ts",
+      "./node_modules/@types/node/vm.d.ts",
+      "./node_modules/@types/node/wasi.d.ts",
+      "./node_modules/@types/node/worker_threads.d.ts",
+      "./node_modules/@types/node/zlib.d.ts",
+      "./node_modules/@types/pbkdf2/index.d.ts",
+      "./node_modules/@types/pvutils/index.d.ts",
+      "./node_modules/@types/qs/index.d.ts",
+      "./node_modules/@types/range-parser/index.d.ts",
+      "./node_modules/@types/secp256k1/index.d.ts",
+      "./node_modules/@types/serve-static/index.d.ts",
+      "./node_modules/@types/tunnel/index.d.ts",
+      "./node_modules/bignumber.js/bignumber.d.ts",
+      "./node_modules/fp-ts/lib/alt.d.ts",
+      "./node_modules/fp-ts/lib/alternative.d.ts",
+      "./node_modules/fp-ts/lib/applicative.d.ts",
+      "./node_modules/fp-ts/lib/apply.d.ts",
+      "./node_modules/fp-ts/lib/bifunctor.d.ts",
+      "./node_modules/fp-ts/lib/bounded.d.ts",
+      "./node_modules/fp-ts/lib/chain.d.ts",
+      "./node_modules/fp-ts/lib/chainrec.d.ts",
+      "./node_modules/fp-ts/lib/compactable.d.ts",
+      "./node_modules/fp-ts/lib/contravariant.d.ts",
+      "./node_modules/fp-ts/lib/either.d.ts",
+      "./node_modules/fp-ts/lib/eq.d.ts",
+      "./node_modules/fp-ts/lib/extend.d.ts",
+      "./node_modules/fp-ts/lib/filterable.d.ts",
+      "./node_modules/fp-ts/lib/foldable.d.ts",
+      "./node_modules/fp-ts/lib/function.d.ts",
+      "./node_modules/fp-ts/lib/functor.d.ts",
+      "./node_modules/fp-ts/lib/hkt.d.ts",
+      "./node_modules/fp-ts/lib/magma.d.ts",
+      "./node_modules/fp-ts/lib/monad.d.ts",
+      "./node_modules/fp-ts/lib/monadthrow.d.ts",
+      "./node_modules/fp-ts/lib/monoid.d.ts",
+      "./node_modules/fp-ts/lib/option.d.ts",
+      "./node_modules/fp-ts/lib/ord.d.ts",
+      "./node_modules/fp-ts/lib/ordering.d.ts",
+      "./node_modules/fp-ts/lib/semigroup.d.ts",
+      "./node_modules/fp-ts/lib/show.d.ts",
+      "./node_modules/fp-ts/lib/traversable.d.ts",
+      "./node_modules/fp-ts/lib/witherable.d.ts",
+      "./node_modules/io-ts/lib/index.d.ts",
+      [
+        "./src/index.ts",
+        [
+          {
+            "file": "./src/index.ts",
+            "start": 60,
+            "length": 15,
+            "code": 7016,
+            "category": 1,
+            "messageText": "Could not find a declaration file for module './lib/thecelo'. '/Users/tushar/go/src/github.com/bisontrails/thecelo/src/lib/thecelo/index.js' implicitly has an 'any' type."
+          }
+        ]
+      ],
+      "./src/lib/thecelo/thecelo.d.ts",
+      "./src/routes/index.ts",
+      [
+        "./src/routes/rewards.ts",
+        [
+          {
+            "file": "./src/routes/rewards.ts",
+            "start": 134,
+            "length": 16,
+            "code": 7016,
+            "category": 1,
+            "messageText": "Could not find a declaration file for module '../lib/thecelo'. '/Users/tushar/go/src/github.com/bisontrails/thecelo/src/lib/thecelo/index.js' implicitly has an 'any' type."
+          },
+          {
+            "file": "./src/routes/rewards.ts",
+            "start": 1366,
+            "length": 3,
+            "messageText": "Parameter 'err' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/routes/rewards.ts",
+            "start": 1371,
+            "length": 4,
+            "messageText": "Parameter 'data' implicitly has an 'any' type.",
+            "category": 1,
+            "code": 7006
+          },
+          {
+            "file": "./src/routes/rewards.ts",
+            "start": 1421,
+            "length": 6,
+            "messageText": "Variable 'voteds' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+            "category": 1,
+            "code": 7034
+          },
+          {
+            "file": "./src/routes/rewards.ts",
+            "start": 1879,
+            "length": 6,
+            "messageText": "Variable 'voteds' implicitly has an 'any[]' type.",
+            "category": 1,
+            "code": 7005
+          }
+        ]
+      ],
+      [
+        "./src/utils.ts",
+        [
+          {
+            "file": "./src/utils.ts",
+            "start": 146,
+            "length": 15,
+            "code": 7016,
+            "category": 1,
+            "messageText": "Could not find a declaration file for module './lib/thecelo'. '/Users/tushar/go/src/github.com/bisontrails/thecelo/src/lib/thecelo/index.js' implicitly has an 'any' type."
+          }
+        ]
+      ],
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts"
+    ]
+  },
+  "version": "3.9.7"
+}

@@ -1,6 +1,5 @@
-let
-  util = require('util');
-  execSync = require('child_process').execSync;
+let util = require('util');
+let execSync = require('child_process').execSync;
   //
   var celo_network = 'rc1';//baklava
   var os = require('os');
